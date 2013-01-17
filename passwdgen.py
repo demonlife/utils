@@ -38,9 +38,9 @@ rsample = lambda text, size: random.sample(list(text), min(size,len(text)))
 
 
 def helper(text, size):
-    '''
+    """
         help if sample size bigger than the length of text
-    '''
+    """
     result = []
     r_divmod = divmod(size, len(text))
     for i in xrange(0, r_divmod[0]):
