@@ -97,7 +97,7 @@ def init(config):
 
 def test():
     """
-        test generate passwords based on config
+        test generating passwords based on config
     """
     message = 'password generation started ... ...'
     logging.info(message)
