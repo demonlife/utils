@@ -106,7 +106,7 @@ def test():
     logging.info(header)
     print header
     for pwd in zip(config['users'], gpwds(config)):
-        password = '%-10s\t%s' % (pwd[0], pwd[1])
+        password = '%-10s\t%-10s' % (pwd[0], pwd[1])
         print password
         logging.info(password)
     message = 'password generation ended ... ...'
