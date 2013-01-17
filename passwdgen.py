@@ -14,13 +14,13 @@ from string import punctuation
 
 """password generator config"""
 config={
-  'min':8,
-  'max':32,
-  'length':8,
-  'cs':2,
-  'ds':2,
-  'ps':2,
-  'users':[
+  'min':8,              #min length of password
+  'max':32,             #max length of password
+  'length':8,           #length of password to be generated
+  'cs':2,               #min number of characters in password
+  'ds':2,               #min number of digits in password
+  'ps':2,               #min number of punctuation in password
+  'users':[             #list of username to be assigned random password
      'dylanninin'
   ],
   'log':{
