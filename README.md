@@ -5,6 +5,8 @@
 #passwdgen
 
 因在日常工作中，有一部分是负责用户账号和权限分配，使用Lastpass自动生成密码容易导致密码繁多难以管理，且也有泄露的危险。于是动手写了一个简单的自动生成密码工具，主要使用Python的random和string标准库。
+
+[passwordgen.py](https://github.com/dylanninin/utils/blob/master/passwdgen.py)
     
 程序主要配置在passwdgen.py的config中，可以自定义：
     
