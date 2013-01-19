@@ -1,6 +1,6 @@
 #utils
 
-utils for daily management
+日常管理实用工具。
 
 #passwdgen
 
