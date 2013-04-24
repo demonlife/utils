@@ -67,3 +67,5 @@
     uid dylanninin
 
 源代码：[ldapsearch.py](https://github.com/dylanninin/utils/blob/master/ldapsearch.py)
+
+主要参考：[LDAP with Python](http://www.packtpub.com/article/installing-and-configuring-the-python-ldap-library-and-binding-to-an-ldap-directory)
