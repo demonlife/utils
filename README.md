@@ -56,7 +56,7 @@
     [dev@scripts~]$ ./ldapsearch.py  dylanninin
     共查询到1条记录。
     第1条记录：
-    uid=yanxin,ou=Personnel,dc=egolife,dc=com
+    uid=dylanninin,ou=admin,dc=egolife,dc=com
     cn dylanninin
     description Life is shot, I use Python!
     mobile 0
