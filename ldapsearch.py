@@ -19,7 +19,7 @@ query = sys.argv[1]
 #ldap settings
 url = 'ldap://ldap.egolife.com:389'
 dn = 'cn=it,ou=admin,dc=egolife,dc=com'
-pw = 'itpassword'
+pw = 'secret'
 base = 'dc=egolife,dc=com'
 filters='(&(objectClass=Account)(cn=*%s*))' % query
 attrs=['*']
