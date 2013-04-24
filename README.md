@@ -46,3 +46,24 @@
     2013-01-17 20:37:25,937 - root - INFO - password generation ended ... ...
 
 源代码：[passwordgen.py](https://github.com/dylanninin/utils/blob/master/passwdgen.py)
+
+#2. ldapsearch
+
+随着ldap使用的推广，很多信息已经集成到ldap服务器中，诸多应用如SVN、Apache、Web App等也开始逐步采用LDAP进行用户身份的认证以及权限管理。这里使用Python实现一个简单的LDAP查询服务，即根据用户名查询该用户在LDAP服务器上的信息。
+
+运行效果如下：
+
+    [dev@scripts~]$ ./ldapsearch.py  dylanninin
+    共查询到1条记录。
+    第1条记录：
+    uid=yanxin,ou=Personnel,dc=egolife,dc=com
+    cn dylanninin
+    description Life is shot, I use Python!
+    mobile 0
+    sn gogh
+    sex Male
+    mail dylanninin@gmail.com
+    givenName dylanninin
+    uid dylanninin
+
+源代码：[ldapsearch.py](https://github.com/dylanninin/utils/blob/master/ldapsearch.py)
